@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+    background-color: darkblue;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border: 2px solid lightcoral;
+    font-size: 1.25rem;
+    width: 40%;
+    padding: 20px;
+    border-radius:20px;
+    margin: 10px 0;
+    background-color: #00b4d8;
+}
+.result{
+    border: 2px solid lightcoral;
+    font-size: 1.25rem;
+    width: 40%;
+    padding: 20px;
+    border-radius:20px;
+    margin: 10px 0;
+    background-color: #00b4d8;
+}
+input::placeholder{
+    font-size: 1.25rem;
+    color: black;
+}
+
+button{
+    border: 2px solid lightcoral;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #00b4d8;
+}
+.notes{
+    border: 2px solid lightcoral;
+    background-color: #00b4d8;
+    border-radius: 10px;
+}
+h1{
+    padding: 10px;
+    background-color: #00b4d8;
+    border-radius: 20px;
+    border: 2px solid lightcoral;
+}
+.container p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 5px;
+}
+.answer{
+    border: 2px solid red;
+}
+
+.clear:hover{   
+    transition: all .2s;                                
+    background-color: lightcoral;
+    padding: 10px;
+    
+}
+.subtract:hover{
+    transition: all .2s;
+    padding: 10px;
+    background-color: lightcoral;
+}
+.add:hover{
+    transition: all .2s;
+    padding: 10px;
+    background-color: lightcoral;
+}
